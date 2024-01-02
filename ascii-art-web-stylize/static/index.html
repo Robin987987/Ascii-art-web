@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ascii-Art Generator</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <header>
+        <h1>welcome to ascii-art-web!</h1>
+            <p>This is a simple browser-based text to ascii art generator developed by kood/Jõhvi student. </p>
+            <p>You can choose from three different fonts: standard, shadow or thinkertoy.</p>
+        </header>
+        <div>    
+         <form method="POST" action="/ascii-art"> 
+              <select name="fonts" id="fontsCSS">
+                <option value="1">standard</option>
+                <option value="2">shadow</option>
+                <option value="3">thinkertoy</option>
+              </select>
+            <div id="inputCssDiv">
+                <input name="name" id="inputCss" type="text" value="" />
+            </div>
+                <input type="submit" id="button" value="submit" />
+          </form>
+        </div>
+    
+        <!-- Footer -->
+        <footer id="footer">
+            <p>Made with ♥ by robinrattasepp</p>
+        </footer>
+        
+    </body>    
+</html>
